@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전광판신청 | AXT PLAYGROUND</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">AXT <span>PLAYGROUND</span></a></div>
+        <nav>
+            <ul>
+                <li><a href="overnight.html">🌙 밤샘인증</a></li>
+                <li><a href="lab-status.html">🌡️ 랩실상황</a></li>
+                <li><a href="display.html">📺 전광판신청</a></li>
+                <li><a href="arcade.html">🎮 오락실랭킹</a></li>
+                <li><a href="bot-log.html">👂 봇의기록</a></li>
+            </ul>
+        </nav>
+        <div class="auth-nav">
+            <a href="login.html" class="btn-login">로그인</a>
+            </div>
+    </header>
+
+    <main>
+        <div class="page-title">
+            <h1>📺 학과 전광판 상영 신청</h1>
+            <p>당신의 멋진 작업물을 학과 사람들에게 보여주세요!</p>
+        </div>
+
+        <div class="display-layout">
+            <section class="card" style="border-color: var(--blue-light);">
+                <h2 style="margin-bottom: 20px;">📝 작품 제출하기</h2>
+                <form action="">
+                    <label for="title" style="font-weight: bold; display: block; margin-bottom: 5px;">작품 제목</label>
+                    <input type="text" id="title" placeholder="예: The Beginning of AXT">
+                    
+                    <label for="desc" style="font-weight: bold; display: block; margin-bottom: 5px;">간단한 설명</label>
+                    <textarea id="desc" rows="4" placeholder="작품에 대한 설명을 적어주세요."></textarea>
+
+                    <label for="info" style="font-weight: bold; display: block; margin-bottom: 5px;">신청자 정보 (학번/이름)</label>
+                    <input type="text" id="info" placeholder="관리자 확인용입니다 (공개 X)">
+
+                    <div style="margin-bottom: 20px;">
+                        <span style="font-weight: bold; display: block; margin-bottom: 5px;">영상 파일 첨부</span>
+                        <div class="upload-area" style="border-color: var(--blue); background: var(--blue-light); padding: 20px;">
+                             📁 클릭하여 영상 파일 선택 (MP4, MOV / Max 500MB)
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-blue" style="width: 100%;">신청서 제출하기</button>
+                </form>
+            </section>
+
+            <section>
+                <h2 style="margin-bottom: 20px;">🕒 현재 상영 대기열 (Queue)</h2>
+                <div class="queue-list">
+                    <div class="queue-item">
+                        <div class="queue-thumb" style="background-color: #eee;"></div>
+                        <div class="queue-info">
+                            <span class="queue-title">졸업작품 티저 영상_최종_진짜최종.mp4</span>
+                            <div class="queue-meta">김아트 | 02:30 | <span class="badge" style="background: var(--blue-light); color: var(--blue);">검토중</span></div>
+                        </div>
+                    </div>
+                    <div class="queue-item">
+                        <div class="queue-thumb" style="background-color: #ddd;"></div>
+                        <div class="queue-info">
+                            <span class="queue-title">3D 모션그래픽 릴 (Reel)</span>
+                            <div class="queue-meta">박테크 | 01:15 | <span class="badge" style="background: var(--mint-light); color: var(--mint);">상영예정 (내일)</span></div>
+                        </div>
+                    </div>
+                     <div class="queue-item">
+                        <div class="queue-thumb" style="background-color: #ccc;"></div>
+                        <div class="queue-info">
+                            <span class="queue-title">인터랙티브 아트 시연 영상</span>
+                            <div class="queue-meta">이융합 | 05:00 | <span class="badge" style="background: var(--blue-light); color: var(--blue);">검토중</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>Made to cultivate a vibrant culture of Art & Technology. <br> AXT PLAYGROUND © 2025</footer>
+</body>
+</html>

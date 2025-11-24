@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>밤샘인증 | AXT PLAYGROUND</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">AXT <span>PLAYGROUND</span></a></div>
+        <nav>
+            <ul>
+                <li><a href="overnight.html">🌙 밤샘인증</a></li>
+                <li><a href="lab-status.html">🌡️ 랩실상황</a></li>
+                <li><a href="display.html">📺 전광판신청</a></li>
+                <li><a href="arcade.html">🎮 오락실랭킹</a></li>
+                <li><a href="bot-log.html">👂 봇의기록</a></li>
+            </ul>
+        </nav>
+        <div class="auth-nav">
+            <a href="login.html" class="btn-login">로그인</a>
+            </div>
+    </header>
+
+    <main>
+        <div class="page-title">
+            <h1>🌙 오늘의 밤샘 기록</h1>
+            <p>당신의 열정을 기록하고 동료들과 공유하세요!</p>
+        </div>
+
+        <div class="overnight-container">
+            <section class="night-gauge-section">
+                <h2>🔥 실시간 누적 밤샘 게이지 (센서 측정)</h2>
+                <div class="gauge-bar-bg-large">
+                    <div class="gauge-bar-fill-large" style="width: 65%;">현재 32시간 달성!</div>
+                </div>
+                <p>목표(50시간)까지 조금만 더! 오늘 밤도 AXT는 깨어있습니다.</p>
+            </section>
+
+            <section class="card" style="border-color: var(--pink-light); margin-bottom: 40px;">
+                 <h3 style="margin-bottom: 20px;">📸 인증샷 올리기</h3>
+                 <input type="text" placeholder="오늘의 한마디 (예: 과제 끝이 안 보여요...)" maxlength="50">
+                 <div class="upload-area">
+                     <span style="font-size: 2rem;">☁️</span><br>
+                     여기를 클릭하거나 파일을 드래그하세요.<br>(JPG, PNG / Max 5MB)
+                 </div>
+                 <button class="btn btn-pink" style="width: 100%; margin-top: 20px;">업로드 완료!</button>
+            </section>
+
+            <h3 style="margin-bottom: 20px;">👀 실시간 밤샘 피드</h3>
+            <div class="feed-grid">
+                <div class="feed-item">
+                    <div class="feed-img" style="background-image: url('https://picsum.photos/300/200?random=1');"></div>
+                    <div class="feed-content">
+                        <div class="feed-meta"><span>익명 학우</span><span>방금 전</span></div>
+                        <p>살려주세요 집에 가고 싶어요 😂</p>
+                    </div>
+                </div>
+                <div class="feed-item">
+                    <div class="feed-img" style="background-image: url('https://picsum.photos/300/200?random=2');"></div>
+                    <div class="feed-content">
+                        <div class="feed-meta"><span>코딩왕</span><span>30분 전</span></div>
+                        <p>버그 잡았다! 드디어 퇴근각?</p>
+                    </div>
+                </div>
+                <div class="feed-item">
+                    <div class="feed-img" style="background-image: url('https://picsum.photos/300/200?random=3');"></div>
+                    <div class="feed-content">
+                        <div class="feed-meta"><span>디자이너A</span><span>1시간 전</span></div>
+                        <p>렌더링 기다리는 중... ⏳</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>Made to cultivate a vibrant culture of Art & Technology. <br> AXT PLAYGROUND © 2025</footer>
+</body>
+</html>

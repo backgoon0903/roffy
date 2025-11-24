@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 | AXT PLAYGROUND</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">AXT <span>PLAYGROUND</span></a></div>
+        <nav>
+            <ul>
+                <li><a href="overnight.html">🌙 밤샘인증</a></li>
+                <li><a href="lab-status.html">🌡️ 랩실상황</a></li>
+                <li><a href="display.html">📺 전광판신청</a></li>
+                <li><a href="arcade.html">🎮 오락실랭킹</a></li>
+                <li><a href="bot-log.html">👂 봇의기록</a></li>
+            </ul>
+        </nav>
+        <div class="auth-nav">
+            <a href="login.html" class="btn-login">로그인</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="auth-container">
+            <div class="card auth-card" style="border-top: 4px solid var(--mint);">
+                <a href="index.html" class="auth-logo">AXT <span>PLAYGROUND</span></a>
+                <h2 style="margin-bottom: 10px;">새로운 멤버 환영해요! 🎉</h2>
+                <p style="margin-bottom: 30px; color: #666;">학과생활을 더 재밌게 즐겨보세요.</p>
+                
+                <form action="">
+                    <div class="form-group">
+                        <label for="new-student-id" class="form-label">학번 (필수)</label>
+                        <input type="text" id="new-student-id" class="auth-input" placeholder="실제 학번을 입력해주세요">
+                    </div>
+                    <div class="form-group">
+                        <label for="new-name" class="form-label">이름 (필수)</label>
+                        <input type="text" id="new-name" class="auth-input" placeholder="본명을 입력해주세요">
+                    </div>
+                     <div class="form-group">
+                        <label for="nickname" class="form-label">닉네임 (선택)</label>
+                        <input type="text" id="nickname" class="auth-input" placeholder="사이트에서 사용할 닉네임 (미입력시 이름 사용)">
+                    </div>
+                    <div class="form-group">
+                        <label for="new-password" class="form-label">비밀번호</label>
+                        <input type="password" id="new-password" class="auth-input" placeholder="비밀번호 설정">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password" class="form-label">비밀번호 확인</label>
+                        <input type="password" id="confirm-password" class="auth-input" placeholder="비밀번호를 한 번 더 입력해주세요">
+                    </div>
+                    
+                    <button type="submit" class="btn" style="width: 100%; padding: 15px; font-size: 1.1rem; margin-top: 10px; background-color: var(--mint); color: var(--text-color);">가입 완료하기 ✨</button>
+                </form>
+
+                <div class="auth-links">
+                    이미 계정이 있으신가요? <a href="login.html" style="margin-left: 10px;">로그인하러 가기</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>Made to cultivate a vibrant culture of Art & Technology. <br> AXT PLAYGROUND © 2025</footer>
+</body>
+</html>

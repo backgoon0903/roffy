@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 | AXT PLAYGROUND</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html">AXT <span>PLAYGROUND</span></a></div>
+        <nav>
+            <ul>
+                <li><a href="overnight.html">🌙 밤샘인증</a></li>
+                <li><a href="lab-status.html">🌡️ 랩실상황</a></li>
+                <li><a href="display.html">📺 전광판신청</a></li>
+                <li><a href="arcade.html">🎮 오락실랭킹</a></li>
+                <li><a href="bot-log.html">👂 봇의기록</a></li>
+            </ul>
+        </nav>
+        <div class="auth-nav">
+            <a href="login.html" class="btn-login" style="background: var(--text-color); color: white;">로그인</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="auth-container">
+            <div class="card auth-card" style="border-top: 4px solid var(--blue);">
+                <a href="index.html" class="auth-logo">AXT <span>PLAYGROUND</span></a>
+                <h2 style="margin-bottom: 30px;">학과 계정으로 로그인</h2>
+                
+                <form action=""> <div class="form-group">
+                        <label for="student-id" class="form-label">학번 (ID)</label>
+                        <input type="text" id="student-id" class="auth-input" placeholder="예: 20251234">
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">비밀번호</label>
+                        <input type="password" id="password" class="auth-input" placeholder="비밀번호를 입력하세요">
+                    </div>
+                    
+                    <button type="submit" class="btn btn-blue" style="width: 100%; padding: 15px; font-size: 1.1rem; margin-top: 10px;">놀이터 입장하기 🚀</button>
+                </form>
+
+                <div class="auth-links">
+                    <a href="signup.html">처음 오셨나요? 회원가입</a>
+                    <span class="divider">|</span>
+                    <a href="#">비밀번호 찾기</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>Made to cultivate a vibrant culture of Art & Technology. <br> AXT PLAYGROUND © 2025</footer>
+</body>
+</html>
